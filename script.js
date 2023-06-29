@@ -31,4 +31,4 @@ let prom5 = new Promise((resolve , reject)  => {
 });
 let prom =[prom1, prom2, prom3, prom4, prom5]
 
-Promise.any(prom).then((value) => result.innerHTML = value);
+Promise.race(prom).then((value) => result.innerHTML = value);
