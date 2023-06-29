@@ -28,4 +28,4 @@ let prom5 = new Promise((resolve , reject) () => {
 		resolue()
 	},5000)
 });
-result.innerHTML = Promise.any(prom1, prom2, prom3, prom4, prom5)
+result.innerHTML = Promise.any[prom1, prom2, prom3, prom4, prom5]
