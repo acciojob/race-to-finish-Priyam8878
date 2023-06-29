@@ -5,27 +5,27 @@ window.promises = [];
 let result = document.getElementBYId("output")
 let prom1 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve();
+        resolve("promise 1 resolve");
     }, 3000)
 });
 let prom2 = new Promise((resolve,reject) => {
 	setTimeout(() =>{
-		resolve()
+		resolve("promise 2 resolve")
 	},1000)
 })
 let prom3 = new Promise((resolve , reject) () => {
 	setTimeout(() => {
-		resolue()
+		resolve("promise 3 resolve")
 	},5000)
 });
 let prom4 = new Promise((resolve , reject) () => {
 	setTimeout(() => {
-		resolue()
+		resolve("promise 4 resolve")
 	},5000)
 });
 let prom5 = new Promise((resolve , reject) () => {
 	setTimeout(() => {
-		resolue()
+		resolve("promise 5 resolve")
 	},5000)
 });
 let prom =[prom1, prom2, prom3, prom4, prom5]
