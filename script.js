@@ -29,4 +29,5 @@ let prom5 = new Promise((resolve , reject) () => {
 	},5000)
 });
 let prom =[prom1, prom2, prom3, prom4, prom5]
-result.innerHTML = Promise.any(prom);
+
+Promise.any(prom).then((value) => result.innerHTML = value);
